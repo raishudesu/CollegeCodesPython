@@ -1,4 +1,3 @@
-
 purity = float(input("Enter the purity: "))
 
 if purity >= 91.7:
