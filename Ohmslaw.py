@@ -1,6 +1,6 @@
-connection = int(input('Series(1) or Parallel(2)?: '))
+connection = int(input('Series(1) or Parallel(2)?: ')) #user input for the desired connection (parallel or series)
 
-def series():
+def series(): #function for the series circuit
     try:
         volts = int(input('Input your Volts: '))
         r1 = int(input('Input R1: '))
@@ -33,7 +33,7 @@ def series():
         print('Invalid input!')
 
 
-def parallel():
+def parallel(): #function for the parallel circuit
     try:
         volts = int(input('Input your Volts: '))
         r1 = int(input('Input R1: '))
