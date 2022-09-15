@@ -31,6 +31,4 @@ def main():
         main()
     elif cond == "N":
         exit()
-
-
 main()
