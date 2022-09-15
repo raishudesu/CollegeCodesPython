@@ -4,7 +4,6 @@ def main():
     user = int(input("Enter the module number: "))
     if user == 1:
         print(">>Module 1: Factorial<<")
-
         def factorial(x):
             user1 = 1
             while x >= 1:
